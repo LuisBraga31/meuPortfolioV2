@@ -1,0 +1,48 @@
+.header {
+    width: 100%;
+    position: fixed;
+    z-index: 99;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 85px;
+    background-color: var(--bg-color);
+    padding: 0px 100px;
+    box-shadow: 5px 8px 5px var(--bg-color3);
+}
+
+.headerLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.headerLogo h2 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 2rem;
+}
+
+.headerLogo strong {
+    color: var(--blue-option);
+}
+
+.headerNav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.headerNav a{
+    color: var(--text-color);
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 200ms ease-in;
+    border: 2.5px solid transparent;
+}
+
+.headerNav a:hover{
+    color: var(--blue-option);
+    border-bottom: 2.5px solid var(--blue-option);  
+}
