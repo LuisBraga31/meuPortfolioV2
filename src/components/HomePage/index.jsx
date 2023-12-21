@@ -67,6 +67,7 @@ export default function HomePage() {
             {icons.map(item => (
                <div className={styles.icon} key={item.id}>
                 <img src={item.image} alt="html-icon"/>
+                <span> {item.name} </span>
                </div>
             ))}
                
