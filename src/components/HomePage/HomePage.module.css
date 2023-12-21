@@ -111,3 +111,61 @@ section {
     gap: 25px;
     text-align: start;
 }
+
+/* Third Section */
+.skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+}
+
+.skillsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.skillsText h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.skillsText p {
+    letter-spacing: 0.5px;
+}
+
+.skillsIcons {
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.skillsIcons div {
+    background-color: var(--bg-color);
+    border-radius: 8px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 250ms ease-in;
+}
+
+.skillsIcons img {
+    width: 100px;
+    height: 105px;
+}
+
+.skillsIcons div:hover{
+    background-color: #14181e;
+    cursor: pointer;
+    color: var(--blue-option);
+}

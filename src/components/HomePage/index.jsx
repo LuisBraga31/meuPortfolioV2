@@ -1,6 +1,8 @@
 import styles from './HomePage.module.css';
 import Perfil from '../../assets/perfil.png';
 
+import icons from '../../data/icons.json';
+
 export default function HomePage() {
 
     return (
@@ -52,6 +54,26 @@ export default function HomePage() {
                 </div>
 
             </section>
+
+            <section id="skills" className={styles.skills}>
+           
+           <div className={styles.skillsText}> 
+               <h2> Habilidades </h2>
+               <p> Algumas de minhas competências </p>
+           </div>
+
+           <div className={styles.skillsIcons}>
+            
+            {icons.map(item => (
+               <div className={styles.icon} key={item.id}>
+                <img src={item.image} alt="html-icon"/>
+               </div>
+            ))}
+               
+           </div>
+
+           
+       </section>
 
         </main>
     )

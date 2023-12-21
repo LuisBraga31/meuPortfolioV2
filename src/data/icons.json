@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name":"HTML",
+        "image": "/skills/icon_html.svg"
+    },
+    {
+        "id": 2,
+        "name":"CSS",
+        "image": "/skills/icon_css.svg"
+    },
+    {
+        "id": 3,
+        "name":"Javascript",
+        "image": "/skills/icon_javascript.svg"
+    },
+    {
+        "id": 4,
+        "name":"Typescript",
+        "image": "/skills/icon_typescript.svg"
+    },
+    {
+        "id": 5,
+        "name":"Git",
+        "image": "/skills/icon_git.svg"
+    },
+    {
+        "id": 6,
+        "name":"React",
+        "image": "/skills/icon_react.svg"
+    },
+    {
+        "id": 7,
+        "name":"Java",
+        "image": "/skills/icon_java.svg"
+    }
+]
