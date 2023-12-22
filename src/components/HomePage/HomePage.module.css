@@ -176,3 +176,124 @@ section {
     cursor: pointer;
     color: var(--blue-option);
 }
+
+/* Fourth Section */
+
+.projects {
+    background-color: var(--bg-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding-bottom: 5rem;
+}
+
+.projectsText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.projectsText h2 {
+    font-size: 2.2rem;
+    letter-spacing: 2px;
+}
+
+.projectsText p {
+    letter-spacing: 0.5px;
+}
+
+.projectsContent {
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    align-items: center;
+    justify-items: center;
+    gap: 30px;
+}
+
+.projectItem {
+    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+    background-color: var(--bg-color3);
+    width: 325px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.projectItem img {
+    padding: 0.8rem;
+    width: 325px;
+    height: 226px;
+}
+
+.projectInfo {
+    width: 325px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.projectInfo h4 {
+    font-size: 1.3rem;
+    letter-spacing: 1.5px;   
+}
+
+.projectInfo p {
+    color: var(--text-gray);
+    font-size: 0.8rem;
+    text-align: justify;
+    height: 90px;
+}
+
+.buttonsProject {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.buttonsProject a {
+    background-color: var(--bg-color2);
+    padding: 5px 20px;
+    border-radius: 15px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    color: var(--text-color);
+    text-decoration: none;
+    transition: all 500ms ease-in;
+}
+
+.buttonsProject a:hover,
+.buttonsProject a:focus {
+    color: var(--bg-color);
+  box-shadow: inset 7.5em 0 0 0 var(--blue-option);
+}
+
+.projectsSeeMore {
+    margin-top: 20px;
+}
+
+.projectsSeeMore a {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    background-color: var(--bg-color2);
+    border-radius: 8px;
+    text-decoration: none;
+    color: var(--text-color);
+    padding: 0.5rem 1rem;
+    border: 2px solid transparent;
+    transition: all 200ms ease-in;
+    font-size: 1.2rem;
+}
+
+.projectsSeeMore a:hover {
+    background-color: transparent;
+    border: 2px solid var(--bg-color2);
+    color: var(--blue-option);
+}

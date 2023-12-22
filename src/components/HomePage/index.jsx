@@ -2,6 +2,7 @@ import styles from './HomePage.module.css';
 import Perfil from '../../assets/perfil.png';
 
 import icons from '../../data/icons.json';
+import projects from '../../data/projects.json';
 
 export default function HomePage() {
 
@@ -57,24 +58,55 @@ export default function HomePage() {
 
             <section id="skills" className={styles.skills}>
            
-           <div className={styles.skillsText}> 
-               <h2> Habilidades </h2>
-               <p> Algumas de minhas competências </p>
-           </div>
+                <div className={styles.skillsText}> 
+                    <h2> Habilidades </h2>
+                    <p> Algumas de minhas competências </p>
+                </div>
 
-           <div className={styles.skillsIcons}>
+                <div className={styles.skillsIcons}>
+                    
+                    {icons.map(item => (
+                    <div className={styles.icon} key={item.id}>
+                        <img src={item.image} alt="html-icon"/>
+                        <span> {item.name} </span>
+                    </div>
+                    ))}
+                    
+                </div>
+
+            </section>
+
+            <section id="projects" className={styles.projects}>
             
-            {icons.map(item => (
-               <div className={styles.icon} key={item.id}>
-                <img src={item.image} alt="html-icon"/>
-                <span> {item.name} </span>
-               </div>
-            ))}
-               
-           </div>
+                <div className={styles.projectsText}> 
+                    <h2> Projetos </h2>
+                    <p> Alguns de meus projetos pessoais </p>
+                </div>
 
-           
-       </section>
+                <div className={styles.projectsContent}>
+                    {projects.map(item => (
+                        <div className={styles.projectItem} key={item.id}>
+                            <img src={item.image}/>
+                            <div className={styles.projectInfo}>
+                                <h4> {item.name} </h4>
+                                <p> {item.description} </p>
+                                <div className={styles.buttonsProject}>
+                                    <a href={item.urlSite}> Acessar </a>
+                                    <a href={item.urlGitHub}> GitHub </a>
+                                </div>
+                            </div>
+                        </div>
+                    ))}
+
+                </div>
+
+                <div className={styles.projectsSeeMore}>
+                    <a href="https://github.com/LuisBraga31?tab=repositories"> 
+                        <span> Veja outros Projetos</span> 
+                    </a>
+                </div>
+
+            </section>
 
         </main>
     )
