@@ -29,6 +29,7 @@
 .introductionImage img{
     border-radius: 500px;
     max-width: 375px;
+    background-color: var(--blue-option);
 }
 
 /* Animation com letras */

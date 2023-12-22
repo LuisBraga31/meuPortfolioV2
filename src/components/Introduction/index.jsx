@@ -1,5 +1,5 @@
 import styles from './Introduction.module.css';
-import Perfil from '../../assets/perfil.png';
+import Perfil from '../../assets/perfil_semfundo.png';
 
 export default function Introduction() {
 
