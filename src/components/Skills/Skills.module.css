@@ -45,7 +45,7 @@
 }
 
 .skillsIcons img {
-    background-color: var(--bg-color);
+    background-color: var(--bg-color2);
     border-radius: 55px;
     padding: 12px;
     display: flex;

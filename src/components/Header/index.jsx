@@ -15,7 +15,6 @@ export default function Header() {
           <a href="#aboutme"> Sobre mim </a>
           <a href="#skills"> Skills </a>
           <a href="#projects"> Projetos </a>
-          <a href="#formations"> Formações </a>
         </nav>
 
       </header>
