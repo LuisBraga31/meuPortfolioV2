@@ -1,0 +1,8 @@
+.main {
+    background-color: var(--bg-color2);
+    padding-top: 80px;
+}
+
+section {
+    padding: 3rem;
+}
