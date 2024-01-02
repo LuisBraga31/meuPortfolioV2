@@ -1,3 +1,6 @@
+import { FaCalendarAlt, FaFlag, FaEnvelope, FaBook } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { BiWorld } from "react-icons/bi";
 import styles from './AboutMe.module.css';
 
 export default function AboutMe() {
@@ -23,12 +26,12 @@ export default function AboutMe() {
                 </div>
 
                 <div className={styles.contentIcons}>
-                    <p> Nascimento: 31 jul 2000</p>
-                    <p> Nacionalidade: Brasileiro</p>
-                    <p> Endereço: Itajubá, MG, Brasil</p>
-                    <p> Línguas: Português e Inglês</p>
-                    <p> Email: luisgustavobsilva@gmail.com </p>
-                    <p> Escolaridade: Superior completo </p>
+                    <p> <FaCalendarAlt size={18}/> Nascimento: 31 jul 2000</p>
+                    <p> <FaFlag size={18}/> Nacionalidade: Brasileiro</p>
+                    <p> <FaLocationDot size={18}/> Endereço: Itajubá, MG, Brasil</p>
+                    <p> <BiWorld size={20}/> Línguas: Português e Inglês</p>
+                    <p> <FaEnvelope size={18}/> Email: luisgustavobsilva@gmail.com </p>
+                    <p> <FaBook size={18}/> Escolaridade: Superior completo </p>
                 </div>
 
             </div>

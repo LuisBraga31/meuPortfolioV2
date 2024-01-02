@@ -45,3 +45,14 @@
     gap: 25px;
     text-align: start;
 }
+
+.contentIcons p {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.contentIcons svg {
+    color: var(--blue-option);
+}
