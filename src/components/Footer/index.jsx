@@ -1,3 +1,4 @@
+import styles from './Footer.module.css';
 
 export default function Footer() {
 
@@ -8,7 +9,7 @@ export default function Footer() {
 
         </div>
 
-        <div>
+        <div className={styles.footer}>
           <small> © 2023 / Luis Braga Dev - Todos os direitos reservados </small>
         </div>
           
