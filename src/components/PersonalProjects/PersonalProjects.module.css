@@ -96,16 +96,17 @@
 .projectsSeeMore a {
     display: flex;
     align-items: center;
-    gap: 5px;
     text-decoration: none;
     color: var(--text-color);
-    padding: 0.5rem 0.7rem;
-    border-bottom: 2px solid var(--blue-option);
+    padding: 0.3rem 0.8rem;
+    border: 1px solid var(--blue-option);
+    border-radius: 15px;
     transition: all 200ms ease-in;
     font-size: 1rem;
+    background-color: var(--bg-color);
 }
 
 .projectsSeeMore a:hover {
-    border-bottom: 2px solid var(--bg-color3);
+    border: 1px solid var(--bg-color3);
     color: var(--blue-option);
 }
