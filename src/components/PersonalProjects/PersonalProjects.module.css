@@ -35,7 +35,7 @@
 }
 
 .projectItem {
-    box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 6px 6px 3px rgba(17, 17, 17, 0.3);
     background-color: var(--bg-color3);
     width: 325px;
     display: flex;
@@ -93,26 +93,19 @@
   box-shadow: inset 7.5em 0 0 0 var(--blue-option);
 }
 
-.projectsSeeMore {
-    margin-top: 20px;
-}
-
 .projectsSeeMore a {
     display: flex;
     align-items: center;
     gap: 5px;
-    background-color: var(--bg-color);
-    border-radius: 8px;
     text-decoration: none;
     color: var(--text-color);
-    padding: 0.5rem 1rem;
-    border: 2px solid transparent;
+    padding: 0.5rem 0.7rem;
+    border-bottom: 2px solid var(--blue-option);
     transition: all 200ms ease-in;
-    font-size: 1.2rem;
+    font-size: 1rem;
 }
 
 .projectsSeeMore a:hover {
-    background-color: transparent;
-    border: 2px solid var(--bg-color3);
+    border-bottom: 2px solid var(--bg-color3);
     color: var(--blue-option);
 }
