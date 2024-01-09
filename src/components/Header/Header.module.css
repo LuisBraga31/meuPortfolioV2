@@ -8,7 +8,7 @@
     height: 85px;
     background-color: var(--bg-color);
     padding: 0px 100px;
-    backdrop-filter: blur(50px);
+    box-shadow: 5px 8px 5px var(--bg-color3);
 }
 
 .headerLogo {
@@ -46,3 +46,11 @@
     color: var(--blue-option);
     border-bottom: 2.5px solid var(--blue-option);  
 }
+
+@media (max-width:1030px) {
+
+    .headerLogo {
+         margin-right: 1%;
+     }
+ 
+ }

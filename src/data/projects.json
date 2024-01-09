@@ -10,7 +10,7 @@
     {
         "id": 2,
         "name": "Digital Booking",
-        "description": "Esse projeto foi o desenvolvimento de um site para o aluguel de hoteis, apartamentos, etc. Foi utilizado React JS e diversos recursos do próprio react e algumas bibliotecas.",
+        "description": "Esse projeto foi o desenvolvimento de um site para o aluguel de hoteis, apartamentos, etc. Foi utilizado React JS, recursos do próprio react e algumas bibliotecas.",
         "image": "/projects/digitalbooking.png",
         "urlSite": "https://digitalbookingproject.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/grupo_2_digitalBooking_Front"
@@ -26,7 +26,7 @@
     {
         "id": 4,
         "name": "Quiz App V2",
-        "description": "Esse Quiz é a versão 2 de um quiz criado com HTML, CSS e JS, porém agora utilizando React jS. O objetivo foi criar um quiz com diversos temas e cada tema tendo 4 perguntas com alternativas.",
+        "description": "Esse Quiz é a versão 2 de um quiz criado com HTML, CSS e JS, porém agora utilizando React Js. O objetivo foi criar um quiz com diversos temas e cada tema tendo 4 perguntas com alternativas.",
         "image": "/projects/quizApp.png",
         "urlSite": "https://quiz-app-v2-eight.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/quizAppV2"

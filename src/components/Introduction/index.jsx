@@ -8,7 +8,7 @@ export default function Introduction() {
         <section id="introduction" className={styles.introduction}>
             
             <div className={styles.introductionText}>
-                <div>
+                <div className={styles.introductionTitle}>
                     <h1> Olá! Eu sou </h1>
                     <h1> <strong className={styles.luisbragadev}> Luis Gustavo Braga</strong> </h1>
                 </div>
