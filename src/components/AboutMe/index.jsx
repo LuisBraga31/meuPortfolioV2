@@ -11,7 +11,6 @@ export default function AboutMe() {
                 
             <div className={styles.aboutMeText}> 
                 <h2> Sobre Mim</h2>
-                <p> Perfil profissional - Infos sobre mim</p>
             </div>
             
             <div className={styles.aboutMeContent}> 
@@ -20,8 +19,7 @@ export default function AboutMe() {
                     <p> 
                         Olá, meu nome é Luis Gustavo Braga! Eu sou formado em Sistemas de Informação pelo Centro Universitário 
                         de Itajubá - FEPI. Eu gosto muito de estudar tecnologia, especialmente na área de desenvolvimento front-end, 
-                        mas também gosto de estudar outras áreas como back-end, testing e banco de dados, acho muito importante estar 
-                        sempre atualizado com novas tecnologias.
+                        mas também estou estudando a área de back-end para me tornar um desenvolvedor full-stack.
                     </p>
                 </div>
 

@@ -9,8 +9,7 @@ export default function Skills() {
         <section id="skills" className={styles.skills}>
            
             <div className={styles.skillsText}> 
-                <h2> Habilidades </h2>
-                <p> Algumas de minhas competências </p>
+                <h2> Skills </h2>
             </div>
 
             <div className={styles.skillsIcons}>

@@ -62,14 +62,6 @@
         "image": "/projects/SuperMario.png",
         "urlSite": "https://supermario-project.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/supermarioProject"
-    },
-    {
-        "id": 9,
-        "name": "Shopping Cart",
-        "description": "Esse projeto foi o desenvolvimento de um simples carrinho de compras utilizando React + TypeScript. O LocalStorage foi utilizado para simular um banco de dados.",
-        "image": "/projects/shoppingCart.png",
-        "urlSite": "https://shopping-cart-seven-tawny.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/shoppingCart"
     }
-
+    
 ]

@@ -8,7 +8,7 @@
     height: 85px;
     background-color: var(--bg-color);
     padding: 0px 100px;
-    box-shadow: 5px 8px 5px var(--bg-color3);
+    backdrop-filter: blur(50px);
 }
 
 .headerLogo {

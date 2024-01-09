@@ -10,6 +10,11 @@
         "image": "/skills/icon_css.svg"
     },
     {
+        "id": 2,
+        "name":"Sass",
+        "image": "/skills/icon_sass.svg"
+    },
+    {
         "id": 3,
         "name":"Javascript",
         "image": "/skills/icon_javascript.svg"

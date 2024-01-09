@@ -17,10 +17,7 @@
 .skillsText h2 {
     font-size: 2.2rem;
     letter-spacing: 2px;
-}
-
-.skillsText p {
-    letter-spacing: 0.5px;
+    margin-bottom: 10px;
 }
 
 .skillsIcons {
@@ -46,18 +43,18 @@
 
 .skillsIcons img {
     background-color: var(--bg-color2);
-    border-radius: 55px;
+    border-radius: 25px;
     padding: 12px;
     display: flex;
     flex-direction: column;
     align-items: center;
     transition: all 250ms ease-in;
-    width: 100px;
-    height: 100px;
+    width: 85px;
+    height: 85px;
 }
 
 .skillsIcons img:hover{
     background-color: #14181e;
-    cursor: pointer;
+
     color: var(--blue-option);
 }

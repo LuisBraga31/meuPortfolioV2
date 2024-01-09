@@ -10,7 +10,6 @@ export default function PersonalProjects() {
             
             <div className={styles.projectsText}> 
                 <h2> Projetos </h2>
-                <p> Alguns de meus projetos pessoais </p>
             </div>
 
             <div className={styles.projectsContent}>
@@ -21,8 +20,8 @@ export default function PersonalProjects() {
                             <h4> {item.name} </h4>
                             <p> {item.description} </p>
                             <div className={styles.buttonsProject}>
-                                <a href={item.urlSite}> Acessar </a>
-                                <a href={item.urlGitHub}> GitHub </a>
+                                <a href={item.urlSite}> Abrir Projeto </a>
+                                <a href={item.urlGitHub}> Repositório </a>
                             </div>
                         </div>
                     </div>
@@ -32,7 +31,7 @@ export default function PersonalProjects() {
 
             <div className={styles.projectsSeeMore}>
                 <a href="https://github.com/LuisBraga31?tab=repositories"> 
-                    <span> Veja outros Projetos</span> 
+                    <span> Ver Mais </span> 
                 </a>
             </div>
 
