@@ -47,10 +47,22 @@
     border-bottom: 2.5px solid var(--blue-option);  
 }
 
-@media (max-width:1030px) {
+.menuHamb {
+    display: none;
+}
 
-    .headerLogo {
-         margin-right: 1%;
-     }
- 
- }
+@media (max-width: 1046px) {
+    .header {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width:968px) {
+    .headerNav {
+        display: none;
+    }
+    .menuHamb {
+        display: block;
+    }
+
+}

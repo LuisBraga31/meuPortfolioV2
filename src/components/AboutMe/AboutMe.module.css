@@ -53,3 +53,17 @@
 .contentIcons svg {
     color: var(--blue-option);
 }
+
+@media (max-width: 560px) {
+    .aboutMeContent {
+        width: 90%;
+    }
+    .contentIcons {
+        margin: 0;
+        grid-template-columns: 1fr;
+    }
+    .contentIcons p {
+        font-size: 0.8rem;
+    }
+      
+}

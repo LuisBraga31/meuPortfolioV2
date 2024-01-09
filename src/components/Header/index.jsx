@@ -1,3 +1,4 @@
+import { FaBars } from "react-icons/fa";
 import styles from './Header.module.css';
 
 export default function Header() {
@@ -17,6 +18,10 @@ export default function Header() {
           <a href="#projects"> Projetos </a>
           <a href="#contacts"> Contatos </a>
         </nav>
+
+        <div className={styles.menuHamb}>
+            <FaBars size={24}/>
+        </div>
 
       </header>
 
