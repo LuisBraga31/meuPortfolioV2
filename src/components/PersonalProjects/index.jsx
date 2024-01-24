@@ -8,14 +8,16 @@ export default function PersonalProjects() {
 
         <section id="projects" className={styles.projects}>
             
-            <div className={styles.projectsText}> 
+            <div className={styles.projectsContainer}>
                 <h2> Projetos </h2>
-            </div>
-
-            <div className={styles.projectsContent}>
+                
+                <div className={styles.projectsContent}>
                 {projects.map(item => (
                     <div className={styles.projectItem} key={item.id}>
-                        <img src={item.image}/>
+                        <div className={styles.projectItemImg}>
+                            <img src={item.image}/>
+                        </div>
+                        
                         <div className={styles.projectInfo}>
                             <h4> {item.name} </h4>
                             <p> {item.description} </p>
@@ -27,13 +29,15 @@ export default function PersonalProjects() {
                     </div>
                 ))}
 
-            </div>
+                </div>
 
-            <div className={styles.projectsSeeMore}>
-                <a href="https://github.com/LuisBraga31?tab=repositories"> 
-                    <span> Ver Mais </span> 
-                </a>
-            </div>
+                <div className={styles.projectsSeeMore}>
+                    <a href="https://github.com/LuisBraga31?tab=repositories"> 
+                        <span> Ver Mais </span> 
+                    </a>
+                </div>
+
+            </div>       
 
         </section>
         

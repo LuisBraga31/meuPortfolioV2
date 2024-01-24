@@ -1,5 +1,4 @@
 .aboutMe {
-    background-color: var(--bg-color2);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -7,63 +6,40 @@
     gap: 1rem;
 }
 
-.aboutMeText {
+.aboutMeContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+    gap: 20px;
+    border-top: 1px solid var(--trace-line);
+    width: 100%;
+    padding: 0px 60px;
 }
 
-.aboutMeText h2 {
+.aboutMeContainer h2{
+    padding-top: 40px;
     font-size: 2.2rem;
     letter-spacing: 2px;
-    margin-bottom: 20px;
 }
 
-.aboutMeContent {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 50px;
-    width: 60%;
+
+.aboutMeContainer p{
+    opacity: 0.7;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
-.contentText {
-    text-align: center;
-    letter-spacing: 0.5px;
-}
 
-.contentIcons {
-    margin-left: 10%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 25px;
-    text-align: start;
-}
-
-.contentIcons p {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 10px;
-}
-
-.contentIcons svg {
-    color: var(--blue-option);
-}
-
-@media (max-width: 560px) {
-    .aboutMeContent {
-        width: 90%;
+@media (max-width: 768px) {
+    .aboutMeContainer {
+        padding: 0px 10px;
     }
-    .contentIcons {
-        margin: 0;
-        grid-template-columns: 1fr;
+    .aboutMeContainer {
+        text-align: center;
     }
-    .contentIcons p {
-        font-size: 0.8rem;
+
+    .aboutMeContainer p{
+        text-align: center;
     }
+
       
 }

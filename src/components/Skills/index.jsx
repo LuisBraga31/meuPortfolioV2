@@ -8,23 +8,24 @@ export default function Skills() {
         
         <section id="skills" className={styles.skills}>
            
-            <div className={styles.skillsText}> 
-                <h2> Skills </h2>
-            </div>
+           <div className={styles.skillsContainer}>
 
-            <div className={styles.skillsIcons}>
+                <h2> Skills </h2>
+
+                <div className={styles.skillsIcons}>
                 
-                {icons.map(item => (
-                <div className={styles.icon} key={item.id}>
-                    <img src={item.image} alt="html-icon"/>
-                    <span> {item.name} </span>
+                    {icons.map(item => (
+                    <div className={styles.icon} key={item.id}>
+                        <img src={item.image} alt="html-icon"/>
+                        <span> {item.name} </span>
+                    </div>
+                    ))}
+                
                 </div>
-                ))}
-                
-            </div>
+
+           </div>
 
         </section>
 
     )
-  
 }

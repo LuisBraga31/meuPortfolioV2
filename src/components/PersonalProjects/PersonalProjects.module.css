@@ -1,29 +1,26 @@
 .projects {
-    background-color: var(--bg-color2);
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 3rem;
-    padding-bottom: 5rem;
 }
 
-.projectsText {
+.projectsContainer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.5rem;
+    gap: 50px;
+    border-top: 1px solid var(--trace-line);
+    width: 100%;
+    padding: 0px 60px;
 }
 
-.projectsText h2 {
+.projectsContainer h2 {
+    padding-top: 40px;
     font-size: 2.2rem;
     letter-spacing: 2px;
-    margin-bottom: 20px;
 }
 
 .projectsContent {
-    width: 90%;
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
     align-items: center;
@@ -32,8 +29,7 @@
 }
 
 .projectItem {
-    border: 1px solid rgb(39, 39, 39);
-    background-color: var(--bg-color3);
+    background-color: var(--bg-color2);
     filter: blur(50%);
     width: 325px;
     display: flex;
@@ -42,15 +38,19 @@
     border-radius: 5px;
 }
 
-.projectItem img {
-    padding: 0.8rem;
-    width: 325px;
-    height: 226px;
+.projectItemImg {
+    padding: 0.6rem 0;
+}
+
+.projectItemImg img {
+    border: 1px solid var(--bg-color);
+    width: 305px;
+    height: 206px;
 }
 
 .projectInfo {
-    width: 325px;
-    padding: 1rem;
+    width: 100%;
+    padding: 0 1rem;
     display: flex;
     flex-direction: column;
     gap: 10px;
@@ -65,17 +65,18 @@
     color: var(--text-gray);
     font-size: 0.8rem;
     text-align: justify;
-    height: 90px;
+    height: 80px;
 }
 
 .buttonsProject {
     display: flex;
     justify-content: center;
     gap: 20px;
+    padding-bottom: 20px;
 }
 
 .buttonsProject a {
-    background-color: var(--bg-color2);
+    background-color: var(--bg-color);
     padding: 5px 20px;
     border-radius: 15px;
     border: 1px solid transparent;
@@ -89,21 +90,21 @@
     background-color: var(--bg-color);
     border: 1px solid white;
 }
+.projectsSeeMore {
+    display: flex;
+    justify-content: center;
+}
 
 .projectsSeeMore a {
-    display: flex;
-    align-items: center;
+    background-color: var(--bg-color2);
     text-decoration: none;
     color: var(--text-color);
     padding: 0.3rem 1.8rem;
-
     border-radius: 15px;
     transition: all 200ms ease-in;
     font-size: 1rem;
-    background-color: var(--bg-color);
 }
 
 .projectsSeeMore a:hover {
-
     color: var(--blue-option);
 }

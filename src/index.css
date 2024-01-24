@@ -20,13 +20,20 @@ body {
   background-size: 400%;
 }
 
+section {
+  padding: 2rem 5rem;
+}
+
 :root {
-  --bg-color: #1f242d;
-  --bg-color2: #2a303b;
-  --bg-color3: #1c2027;
+  --bg-color: #15181e;
+  
+  --bg-color2: #1b1d26;
+
+  --bg-color3: #131317;
   --blue-option: #00abf0;
   --white-color: #fff;
   --gray-color: #9f9f9f;
+  --trace-line: rgb(60, 60, 60);
 }
 
 ::-webkit-scrollbar {
