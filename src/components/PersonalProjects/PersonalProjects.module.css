@@ -108,3 +108,13 @@
 .projectsSeeMore a:hover {
     color: var(--blue-option);
 }
+
+@media (max-width: 768px) {
+    .projectsContainer {
+        padding: 0px 10px;
+    }
+    .projectsContainer {
+        text-align: center;
+    }
+      
+}
