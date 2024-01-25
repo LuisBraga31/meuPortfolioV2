@@ -16,8 +16,8 @@ export default function Skills() {
                 
                     {icons.map(item => (
                     <div className={styles.icon} key={item.id}>
-                        <img src={item.image} alt="html-icon"/>
                         <span> {item.name} </span>
+                        <img src={item.image} alt="html-icon"/>
                     </div>
                     ))}
                 

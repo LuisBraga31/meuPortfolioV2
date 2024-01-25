@@ -7,7 +7,7 @@
 .skillsContainer {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 10px;
     border-top: 1px solid var(--trace-line);
     width: 100%;
     padding: 0px 60px;
@@ -40,6 +40,17 @@
     gap: 5px;
 }
 
+.icon span {
+    z-index: -1;
+    transform: translateY(2rem);
+    transition: 0.3s all linear;
+}
+
+.icon:hover span {
+    z-index: 1;
+    transform: translateY(0)!important; 
+}
+
 .skillsIcons img {
     text-align: center;
     background-color: var(--bg-color2);
@@ -49,6 +60,7 @@
     width: 85px;
     height: 85px;
     cursor: pointer;
+    z-index: 10;
 }
 
 /* .skillsIcons img:hover{
