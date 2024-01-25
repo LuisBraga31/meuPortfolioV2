@@ -1,27 +1,3 @@
-.contacts {
-    padding: 50px 0px;
-    display: flex;
-    background-color: var(--bg-color3);
-    align-items: center;
-    justify-content: center;
-    gap: 80px;
-    border-bottom: 0.25px solid var(--bg-color2);
-}
-
-.contactItem {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 15px;
-}
-
-.contactItem a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: var(--blue-option);
-}
-
 .footer {
     background-color: var(--bg-color3);
     padding: 1.1rem;
@@ -41,8 +17,5 @@
         flex-direction: column;
         gap: 50px;
     }
-    .contactItem {
-        text-align: center;
-        width: 100%;
-    }
+
 }

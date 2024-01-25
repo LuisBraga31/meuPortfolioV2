@@ -33,6 +33,21 @@
     background-color: var(--blue-option);
 }
 
+.introductionContacts {
+    display: flex;
+    gap: 20px;
+}
+
+.introductionContacts svg {
+    color: var(--bg-color4);
+
+    transition: 0.3s all linear;
+}
+
+.introductionContacts svg:hover {
+    color: var(--blue-option);
+}
+
 /* Animation com letras */
 
 .luisbragadev::after {
