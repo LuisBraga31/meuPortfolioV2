@@ -22,7 +22,7 @@
 .projectsContent {
     width: 100%;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
     align-items: center;
     justify-items: center;
     gap: 40px;
@@ -110,6 +110,10 @@
 }
 
 @media (max-width: 768px) {
+    .projects {
+        padding: 2rem;
+    }
+
     .projectsContainer {
         padding: 0px 10px;
     }
