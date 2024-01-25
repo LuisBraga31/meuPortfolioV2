@@ -33,11 +33,11 @@
     },
     {
         "id": 5,
-        "name": "Vet Mania",
-        "description": "O projeto foi criado utilizando conceitos de HTML, CSS e JS, com o objetivo de simular uma clínica veterinária.",
-        "image": "/projects/vetMania.png",
-        "urlSite": "https://vet-mania.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/vetMania"
+        "name": "TravelProject",
+        "description": "Esse projeto foi o desenvolvimento de um site de aventura/tour, utilizando React JS e o pré-processador SASS. O objetivo foi praticar o uso do Sass e criar um site completo e responsivo.",
+        "image": "/projects/travelProject.png",
+        "urlSite": "https://travel-project-smoky.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/travelProject"
     },
     {
         "id": 6,
@@ -62,6 +62,14 @@
         "image": "/projects/SuperMario.png",
         "urlSite": "https://supermario-project.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/supermarioProject"
+    },
+    {
+        "id": 9,
+        "name": "Vet Mania",
+        "description": "O projeto foi criado utilizando conceitos de HTML, CSS e JS, com o objetivo de simular uma clínica veterinária.",
+        "image": "/projects/vetMania.png",
+        "urlSite": "https://vet-mania.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/vetMania"
     }
     
 ]
