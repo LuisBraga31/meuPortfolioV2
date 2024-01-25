@@ -48,25 +48,6 @@
     color: var(--blue-option);
 }
 
-/* Animation com letras */
-
-.luisbragadev::after {
-    color: var(--blue-option);
-    content: '|';
-    margin-left: 5px;
-    opacity: 1;
-    animation: pisca 1s infinite linear;
-}
-  
-@keyframes pisca {
-    0%, 100% {
-      opacity: 1;
-    }
-    50% {
-      opacity: 0;
-    }
-}
-
 @media (max-width:940px) {
 
     .introduction {
@@ -100,7 +81,7 @@
     }
 
     .introductionTitle h1{
-        font-size: 2.4rem;
+        font-size: 2rem;
     }
     .introductionText p {
         font-size: 1rem;

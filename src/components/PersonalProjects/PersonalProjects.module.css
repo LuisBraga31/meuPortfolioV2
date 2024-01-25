@@ -7,7 +7,7 @@
 .projectsContainer {
     display: flex;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
     border-top: 1px solid var(--trace-line);
     width: 100%;
     padding: 0px 60px;
@@ -89,24 +89,6 @@
 .buttonsProject a:hover {
     background-color: var(--bg-color);
     border: 1px solid white;
-}
-.projectsSeeMore {
-    display: flex;
-    justify-content: center;
-}
-
-.projectsSeeMore a {
-    background-color: var(--bg-color2);
-    text-decoration: none;
-    color: var(--text-color);
-    padding: 0.3rem 1.8rem;
-    border-radius: 15px;
-    transition: all 200ms ease-in;
-    font-size: 1rem;
-}
-
-.projectsSeeMore a:hover {
-    color: var(--blue-option);
 }
 
 @media (max-width: 768px) {

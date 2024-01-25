@@ -30,13 +30,7 @@ export default function PersonalProjects() {
                 ))}
 
                 </div>
-
-                <div className={styles.projectsSeeMore}>
-                    <a href="https://github.com/LuisBraga31?tab=repositories"> 
-                        <span> Ver Mais </span> 
-                    </a>
-                </div>
-
+                
             </div>       
 
         </section>
