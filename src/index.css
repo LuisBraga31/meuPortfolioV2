@@ -24,6 +24,13 @@ section {
   padding: 2rem 5rem;
 }
 
+@media(max-width: 480px) {
+  section {
+    padding: 2rem 2rem;
+  }
+  
+}
+
 :root {
   --bg-color: #15181e;
   

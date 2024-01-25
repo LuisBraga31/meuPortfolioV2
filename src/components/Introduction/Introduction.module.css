@@ -88,6 +88,9 @@
     .introductionTitle h1{
         font-size: 3rem;
     }
+    .introduction {
+        padding-bottom: 0.5rem;
+    }
 }
 
 @media (max-width:555px) {
