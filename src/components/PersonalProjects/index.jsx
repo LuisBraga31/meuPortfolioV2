@@ -22,8 +22,8 @@ export default function PersonalProjects() {
                             <h4> {item.name} </h4>
                             <p> {item.description} </p>
                             <div className={styles.buttonsProject}>
-                                <a href={item.urlSite}> Abrir Projeto </a>
-                                <a href={item.urlGitHub}> Repositório </a>
+                                <a href={item.urlSite} target="_blank" rel="noopener noreferrer"> Abrir Projeto </a>
+                                <a href={item.urlGitHub} target="_blank" rel="noopener noreferrer"> Repositório </a>
                             </div>
                         </div>
                     </div>
