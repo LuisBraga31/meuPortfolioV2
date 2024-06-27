@@ -7,15 +7,7 @@
         "urlSite": "https://top10game.app/"
     },
     {
-       "id": 2,
-       "name" : "Hamburger Shop",
-       "description": "O projeto foi criado utilizando HTML, CSS e JavaScript, com o objetivo de simular uma Hambugeria simples, apresentando o lugar, o cardápio e os contatos.",
-       "image": "/projects/hamburgerShop.png",
-       "urlSite": "https://hamburgershop-seven.vercel.app/",
-       "urlGitHub": "https://github.com/LuisBraga31/hamburgerShop.github.io"
-    },
-    {
-        "id": 3,
+        "id": 2,
         "name": "Digital Booking",
         "description": "Esse projeto foi o desenvolvimento de um site para o aluguel de hoteis, apartamentos, etc. Foi utilizado React JS, recursos do próprio react e algumas bibliotecas.",
         "image": "/projects/digitalbooking.png",
@@ -23,12 +15,20 @@
         "urlGitHub": "https://github.com/LuisBraga31/grupo_2_digitalBooking_Front"
     },
     {
+        "id": 3,
+        "name": "Virtual R Website",
+        "description": "Esse projeto foi o desenvolvimento de um website moderno, utilizando React JS e Tailwind CSS. O objetivo foi praticar o uso do Tailwind e criar um site moderno e responsivo.",
+        "image": "/projects/virtualR.png",
+        "urlSite": "https://virtual-modernweb.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/ModernLandingPage"
+    },
+    {
         "id": 4,
-        "name": "Controle Financeiro",
-        "description": "Esse projeto foi criado utilizando o React JS, com o objetivo de simular um pequeno sistema de controle financeiro. Além disso foi utilizado o LocalStorage como banco de dados provisório.",
-        "image": "/projects/financialSystem.png",
-        "urlSite": "https://financialsystem.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/financialSystem"
+        "name": "TravelProject",
+        "description": "Esse projeto foi o desenvolvimento de um site de aventura/tour, utilizando React JS e o pré-processador SASS. O objetivo foi praticar o uso do Sass e criar um site completo e responsivo.",
+        "image": "/projects/travelProject.png",
+        "urlSite": "https://travel-project-smoky.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/travelProject"
     },
     {
         "id": 5,
@@ -40,30 +40,39 @@
     },
     {
         "id": 6,
-        "name": "TravelProject",
-        "description": "Esse projeto foi o desenvolvimento de um site de aventura/tour, utilizando React JS e o pré-processador SASS. O objetivo foi praticar o uso do Sass e criar um site completo e responsivo.",
-        "image": "/projects/travelProject.png",
-        "urlSite": "https://travel-project-smoky.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/travelProject"
-    },
-    {
+        "name" : "Hamburger Shop",
+        "description": "O projeto foi criado utilizando HTML, CSS e JavaScript, com o objetivo de simular uma Hambugeria simples, apresentando o lugar, o cardápio e os contatos.",
+        "image": "/projects/hamburgerShop.png",
+        "urlSite": "https://hamburgershop-seven.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/hamburgerShop.github.io"
+     },
+     {
         "id": 7,
-        "name": "Flags Country",
-        "description": "Esse projeto criado utilizando a API 'RestCountries', que exibe todos os países do mundo. Utilizando HTML, CSS e JS, foi criado um projeto para buscar esses países e ver algumas informações do mesmo.",
-        "image": "/projects/flagsCountry.png",
-        "urlSite": "https://luisbraga31.github.io/flagsCountry.github.io/",
-        "urlGitHub": "https://github.com/LuisBraga31/flagsCountry.github.io"
+        "name": "Blog Website",
+        "description": "Esse projeto foi criado utilizando React JS e Tailwind CSS, com o objetivo de simular um pequeno blog de desenvolvimento.",
+        "image": "/projects/blogwebsite.png",
+        "urlSite": "https://blog-website-seven-teal-67.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/BlogWebsite"
     },
     {
         "id": 8,
+        "name": "Controle Financeiro",
+        "description": "Esse projeto foi criado utilizando o React JS, com o objetivo de simular um pequeno sistema de controle financeiro. Além disso foi utilizado o LocalStorage como banco de dados provisório.",
+        "image": "/projects/financialSystem.png",
+        "urlSite": "https://financialsystem.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/financialSystem"
+    },
+    {
+        "id": 9,
         "name": "App To Do",
         "description": "Esse projeto foi o desenvolvimento de uma lista de tarefas, o famoso App To Do, utilizando React JS. Além disso foram criados filtros e um mecanismo de busca.",
         "image": "/projects/reactAppToDo.png",
         "urlSite": "https://react-app-to-do-tau.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/reactAppToDo.github.io"
     },
+
     {
-        "id": 9,
+        "id": 10,
         "name": "Quiz App V2",
         "description": "Esse Quiz é a versão 2 de um quiz criado com HTML, CSS e JS, porém agora utilizando React Js. O objetivo foi criar um quiz com diversos temas e cada tema tendo 4 perguntas com alternativas.",
         "image": "/projects/quizApp.png",
@@ -72,12 +81,12 @@
     
     },
     {
-        "id": 10,
-        "name": "Vet Mania",
-        "description": "O projeto foi criado utilizando conceitos de HTML, CSS e JS, com o objetivo de simular uma clínica veterinária.",
-        "image": "/projects/vetMania.png",
-        "urlSite": "https://vet-mania.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/vetMania"
+        "id": 11,
+        "name": "Flags Country",
+        "description": "Esse projeto criado utilizando a API 'RestCountries', que exibe todos os países do mundo. Utilizando HTML, CSS e JS, foi criado um projeto para buscar esses países e ver algumas informações do mesmo.",
+        "image": "/projects/flagsCountry.png",
+        "urlSite": "https://luisbraga31.github.io/flagsCountry.github.io/",
+        "urlGitHub": "https://github.com/LuisBraga31/flagsCountry.github.io"
     }
-    
+
 ]

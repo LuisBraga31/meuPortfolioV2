@@ -16,26 +16,31 @@
     },
     {
         "id": 3,
+        "name":"Tailwind Css",
+        "image": "/skills/icon_tailwind.svg"
+    },
+    {
+        "id": 4,
         "name":"Javascript",
         "image": "/skills/icon_javascript.svg"
     },
     {
-        "id": 4,
+        "id": 5,
         "name":"Typescript",
         "image": "/skills/icon_typescript.svg"
     },
     {
-        "id": 5,
+        "id": 6,
         "name":"Git",
         "image": "/skills/icon_git.svg"
     },
     {
-        "id": 6,
+        "id": 7,
         "name":"React",
         "image": "/skills/icon_react.svg"
     },
     {
-        "id": 7,
+        "id": 8,
         "name":"Java",
         "image": "/skills/icon_java.svg"
     }
