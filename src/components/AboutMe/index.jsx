@@ -12,7 +12,7 @@ export default function AboutMe() {
 
                 <p> 
                     Olá, meu nome é Luis Gustavo Braga! Eu sou formado em Sistemas de Informação pelo Centro Universitário 
-                    de Itajubá - FEPI. Eu sou apaixanado pela área de tecnologia, especialmente na área de desenvolvimento front-end,
+                    de Itajubá - FEPI. Eu sou apaixonado pela área de tecnologia, especialmente na área de desenvolvimento front-end,
                     onde, atualmente, utilizo ReactJS para criar meus projetos. Já no desenvolvimento back-end, estou estudando NodeJs
                     e Java para ampliar meus conhecimentos para me tornar um desenvolvedor Full-Stack.
                 </p>
