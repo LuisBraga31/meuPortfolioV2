@@ -15,7 +15,7 @@ export default function AboutMe() {
                 Sou apaixonado pela área de tecnologia, especialmente no desenvolvimento Front-End. Atualmente desenvolvo alguns projetos 
                 para aprimorar meus conhecimentos, no desenvolvimento web utilizo como base o ReactJS e no desenvolvimento mobile estou
                 utilizando o React Native. Estou constantemente expandindo meus conhecimentos para me tornar um desenvolvedor Full-Stack. 
-                Por fim, atualmentetenho um projeto chamado Top10Game, que é um simples jogo de acertar o top10 de um determinado tema, 
+                Por fim, atualmente tenho um projeto chamado Top10Game, que é um simples jogo de acertar o top10 de um determinado assunto, 
                 atualmente tenho um site desse jogo e um aplicativo disponível na Play Store, na seção de <a href="#projects"> projetos </a> 
                 deste meu portfólio, você pode acessá-los.
                 </p>
