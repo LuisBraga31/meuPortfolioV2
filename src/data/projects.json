@@ -16,6 +16,13 @@
     },
     {
         "id": 3,
+        "name": "Top10Game Mobile",
+        "description": "Esse projeto foi o desenvolvimento do Top10Game numa versão mobile, afim de transforma-lo em um aplicativo para a PlayStore. O desenvolvimento foi feito utilizando React Native com a ferramenta Expo.",
+        "image": "/projects/top10gameMobile.png",
+        "urlSite": "https://play.google.com/store/apps/details?id=com.luisbraga31.top10game"
+    },
+    {
+        "id": 4,
         "name": "Virtual R Website",
         "description": "Esse projeto foi o desenvolvimento de um website moderno, utilizando React JS e Tailwind CSS. O objetivo foi praticar o uso do Tailwind e criar um site moderno e responsivo.",
         "image": "/projects/virtualR.png",
@@ -23,7 +30,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/ModernLandingPage"
     },
     {
-        "id": 4,
+        "id": 5,
         "name": "TravelProject",
         "description": "Esse projeto foi o desenvolvimento de um site de aventura/tour, utilizando React JS e o pré-processador SASS. O objetivo foi praticar o uso do Sass e criar um site completo e responsivo.",
         "image": "/projects/travelProject.png",
@@ -31,7 +38,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/travelProject"
     },
     {
-        "id": 5,
+        "id": 6,
         "name": "Super Mario Bros",
         "description": "Esse projeto foi o desenvolvimento de um site do filme Super Marios Bros (2023), utilizando React JS. O objetivo foi praticar boas práticas do React JS.",
         "image": "/projects/SuperMario.png",
@@ -39,7 +46,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/supermarioProject"
     },
     {
-        "id": 6,
+        "id": 7,
         "name" : "Hamburger Shop",
         "description": "O projeto foi criado utilizando HTML, CSS e JavaScript, com o objetivo de simular uma Hambugeria simples, apresentando o lugar, o cardápio e os contatos.",
         "image": "/projects/hamburgerShop.png",
@@ -47,7 +54,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/hamburgerShop.github.io"
      },
      {
-        "id": 7,
+        "id": 8,
         "name": "Blog Website",
         "description": "Esse projeto foi criado utilizando React JS e Tailwind CSS, com o objetivo de simular um pequeno blog de desenvolvimento.",
         "image": "/projects/blogwebsite.png",
@@ -55,7 +62,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/BlogWebsite"
     },
     {
-        "id": 8,
+        "id": 9,
         "name": "Controle Financeiro",
         "description": "Esse projeto foi criado utilizando o React JS, com o objetivo de simular um pequeno sistema de controle financeiro. Além disso foi utilizado o LocalStorage como banco de dados provisório.",
         "image": "/projects/financialSystem.png",
@@ -63,22 +70,12 @@
         "urlGitHub": "https://github.com/LuisBraga31/financialSystem"
     },
     {
-        "id": 9,
+        "id": 10,
         "name": "App To Do",
         "description": "Esse projeto foi o desenvolvimento de uma lista de tarefas, o famoso App To Do, utilizando React JS. Além disso foram criados filtros e um mecanismo de busca.",
         "image": "/projects/reactAppToDo.png",
         "urlSite": "https://react-app-to-do-tau.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/reactAppToDo.github.io"
-    },
-
-    {
-        "id": 10,
-        "name": "Quiz App V2",
-        "description": "Esse Quiz é a versão 2 de um quiz criado com HTML, CSS e JS, porém agora utilizando React Js. O objetivo foi criar um quiz com diversos temas e cada tema tendo 4 perguntas com alternativas.",
-        "image": "/projects/quizApp.png",
-        "urlSite": "https://quiz-app-v2-eight.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/quizAppV2"
-    
     },
     {
         "id": 11,
@@ -87,6 +84,16 @@
         "image": "/projects/flagsCountry.png",
         "urlSite": "https://luisbraga31.github.io/flagsCountry.github.io/",
         "urlGitHub": "https://github.com/LuisBraga31/flagsCountry.github.io"
+    },
+    {
+        "id": 12,
+        "name": "Quiz App V2",
+        "description": "Esse Quiz é a versão 2 de um quiz criado com HTML, CSS e JS, porém agora utilizando React Js. O objetivo foi criar um quiz com diversos temas e cada tema tendo 4 perguntas com alternativas.",
+        "image": "/projects/quizApp.png",
+        "urlSite": "https://quiz-app-v2-eight.vercel.app/",
+        "urlGitHub": "https://github.com/LuisBraga31/quizAppV2"
+    
     }
+
 
 ]

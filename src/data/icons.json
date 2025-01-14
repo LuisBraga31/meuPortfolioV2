@@ -1,23 +1,18 @@
 [
     {
         "id": 1,
+        "name":"React",
+        "image": "/skills/icon_react.svg"
+    },
+    {
+        "id": 2,
         "name":"HTML",
         "image": "/skills/icon_html.svg"
     },
     {
-        "id": 2,
+        "id": 3,
         "name":"CSS",
         "image": "/skills/icon_css.svg"
-    },
-    {
-        "id": 2,
-        "name":"Sass",
-        "image": "/skills/icon_sass.svg"
-    },
-    {
-        "id": 3,
-        "name":"Tailwind Css",
-        "image": "/skills/icon_tailwind.svg"
     },
     {
         "id": 4,
@@ -31,17 +26,23 @@
     },
     {
         "id": 6,
-        "name":"Git",
-        "image": "/skills/icon_git.svg"
+        "name":"Sass",
+        "image": "/skills/icon_sass.svg"
     },
     {
         "id": 7,
-        "name":"React",
-        "image": "/skills/icon_react.svg"
+        "name":"Tailwind Css",
+        "image": "/skills/icon_tailwind.svg"
     },
     {
         "id": 8,
-        "name":"Java",
-        "image": "/skills/icon_java.svg"
+        "name":"Git",
+        "image": "/skills/icon_git.svg"
+    },
+
+    {
+        "id": 9,
+        "name":"React Native",
+        "image": "/skills/icon_reactnative.svg"
     }
 ]

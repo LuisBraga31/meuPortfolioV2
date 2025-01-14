@@ -24,10 +24,16 @@
 
 .aboutMeContainer p{
     opacity: 0.7;
-    letter-spacing: 1px;
+    letter-spacing: 1.5px;
     text-align: justify;
 }
 
+.aboutMeContainer a{
+    color: var(--blue-option);
+    font-size: 1rem;
+    text-decoration: none;
+    transition: all 200ms ease-in;  
+}
 
 @media (max-width: 768px) {
     .aboutMeContainer {
