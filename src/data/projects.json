@@ -8,18 +8,18 @@
     },
     {
         "id": 2,
+        "name": "Top10Game Mobile",
+        "description": "Esse projeto foi o desenvolvimento do Top10Game numa versão mobile, afim de transforma-lo em um aplicativo para a PlayStore. O desenvolvimento foi feito utilizando React Native com a ferramenta Expo.",
+        "image": "/projects/top10gameMobile.png",
+        "urlSite": "https://play.google.com/store/apps/details?id=com.luisbraga31.top10game"
+    },
+    {
+        "id": 3,
         "name": "Digital Booking",
         "description": "Esse projeto foi o desenvolvimento de um site para o aluguel de hoteis, apartamentos, etc. Foi utilizado React JS, recursos do próprio react e algumas bibliotecas.",
         "image": "/projects/digitalbooking.png",
         "urlSite": "https://digitalbookingproject.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/grupo_2_digitalBooking_Front"
-    },
-    {
-        "id": 3,
-        "name": "Top10Game Mobile",
-        "description": "Esse projeto foi o desenvolvimento do Top10Game numa versão mobile, afim de transforma-lo em um aplicativo para a PlayStore. O desenvolvimento foi feito utilizando React Native com a ferramenta Expo.",
-        "image": "/projects/top10gameMobile.png",
-        "urlSite": "https://play.google.com/store/apps/details?id=com.luisbraga31.top10game"
     },
     {
         "id": 4,
@@ -39,30 +39,6 @@
     },
     {
         "id": 6,
-        "name": "Super Mario Bros",
-        "description": "Esse projeto foi o desenvolvimento de um site do filme Super Marios Bros (2023), utilizando React JS. O objetivo foi praticar boas práticas do React JS.",
-        "image": "/projects/SuperMario.png",
-        "urlSite": "https://supermario-project.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/supermarioProject"
-    },
-    {
-        "id": 7,
-        "name" : "Hamburger Shop",
-        "description": "O projeto foi criado utilizando HTML, CSS e JavaScript, com o objetivo de simular uma Hambugeria simples, apresentando o lugar, o cardápio e os contatos.",
-        "image": "/projects/hamburgerShop.png",
-        "urlSite": "https://hamburgershop-seven.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/hamburgerShop.github.io"
-     },
-     {
-        "id": 8,
-        "name": "Blog Website",
-        "description": "Esse projeto foi criado utilizando React JS e Tailwind CSS, com o objetivo de simular um pequeno blog de desenvolvimento.",
-        "image": "/projects/blogwebsite.png",
-        "urlSite": "https://blog-website-seven-teal-67.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/BlogWebsite"
-    },
-    {
-        "id": 9,
         "name": "Controle Financeiro",
         "description": "Esse projeto foi criado utilizando o React JS, com o objetivo de simular um pequeno sistema de controle financeiro. Além disso foi utilizado o LocalStorage como banco de dados provisório.",
         "image": "/projects/financialSystem.png",
@@ -70,7 +46,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/financialSystem"
     },
     {
-        "id": 10,
+        "id": 7,
         "name": "App To Do",
         "description": "Esse projeto foi o desenvolvimento de uma lista de tarefas, o famoso App To Do, utilizando React JS. Além disso foram criados filtros e um mecanismo de busca.",
         "image": "/projects/reactAppToDo.png",
@@ -78,22 +54,12 @@
         "urlGitHub": "https://github.com/LuisBraga31/reactAppToDo.github.io"
     },
     {
-        "id": 11,
+        "id": 8,
         "name": "Flags Country",
         "description": "Esse projeto criado utilizando a API 'RestCountries', que exibe todos os países do mundo. Utilizando HTML, CSS e JS, foi criado um projeto para buscar esses países e ver algumas informações do mesmo.",
         "image": "/projects/flagsCountry.png",
         "urlSite": "https://luisbraga31.github.io/flagsCountry.github.io/",
         "urlGitHub": "https://github.com/LuisBraga31/flagsCountry.github.io"
-    },
-    {
-        "id": 12,
-        "name": "Quiz App V2",
-        "description": "Esse Quiz é a versão 2 de um quiz criado com HTML, CSS e JS, porém agora utilizando React Js. O objetivo foi criar um quiz com diversos temas e cada tema tendo 4 perguntas com alternativas.",
-        "image": "/projects/quizApp.png",
-        "urlSite": "https://quiz-app-v2-eight.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/quizAppV2"
-    
     }
-
 
 ]

@@ -6,43 +6,42 @@
     },
     {
         "id": 2,
+        "name":"React Native",
+        "image": "/skills/icon_reactnative.svg"
+    },
+    {
+        "id": 3,
         "name":"HTML",
         "image": "/skills/icon_html.svg"
     },
     {
-        "id": 3,
+        "id": 4,
         "name":"CSS",
         "image": "/skills/icon_css.svg"
     },
     {
-        "id": 4,
+        "id": 5,
         "name":"Javascript",
         "image": "/skills/icon_javascript.svg"
     },
     {
-        "id": 5,
+        "id": 6,
         "name":"Typescript",
         "image": "/skills/icon_typescript.svg"
     },
     {
-        "id": 6,
+        "id": 7,
         "name":"Sass",
         "image": "/skills/icon_sass.svg"
     },
     {
-        "id": 7,
+        "id": 8,
         "name":"Tailwind Css",
         "image": "/skills/icon_tailwind.svg"
     },
     {
-        "id": 8,
+        "id": 9,
         "name":"Git",
         "image": "/skills/icon_git.svg"
-    },
-
-    {
-        "id": 9,
-        "name":"React Native",
-        "image": "/skills/icon_reactnative.svg"
     }
 ]
