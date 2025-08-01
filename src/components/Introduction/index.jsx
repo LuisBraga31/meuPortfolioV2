@@ -19,7 +19,7 @@ export default function Introduction() {
                     <h1> Olá! Eu sou </h1>
                     <h1> <strong className={styles.luisbragadev}> Luis Gustavo Braga</strong> </h1>
                 </div>
-                <p> Prazer, eu sou o Luis, tenho 24 anos e sou desenvolvedor.</p>
+                <p> Prazer, eu sou o Luis, tenho 25 anos e sou desenvolvedor.</p>
                 
                 <div className={styles.introductionContacts}>
                     <a href="https://github.com/LuisBraga31" target="_blank" rel="noopener noreferrer"> <FaGithub size={28}/> </a>
