@@ -11,13 +11,11 @@ export default function AboutMe() {
                 <h2> Sobre Mim </h2>
 
                 <p> 
-                Olá, meu nome é Luis Gustavo Braga! Eu sou formado em Sistemas de Informação pelo Centro Universitário de Itajubá - FEPI. 
-                Sou apaixonado pela área de tecnologia, especialmente no desenvolvimento Front-End. Atualmente desenvolvo alguns projetos 
-                para aprimorar meus conhecimentos, no desenvolvimento web utilizo como base o ReactJS e no desenvolvimento mobile estou
-                utilizando o React Native. Estou constantemente expandindo meus conhecimentos para me tornar um desenvolvedor Full-Stack. 
-                Por fim, atualmente tenho um projeto chamado Top10Game, que é um simples jogo de acertar o top10 de um determinado assunto, 
-                atualmente tenho um site desse jogo e um aplicativo disponível na Play Store, na seção de <a href="#projects"> projetos </a> 
-                deste meu portfólio, você pode acessá-los.
+                    Olá, meu nome é Luis Gustavo Braga. Sou formado em Sistemas de Informação pelo Centro Universitário de Itajubá - FEPI e 
+                    apaixonado por tecnologia, especialmente pelo desenvolvimento Front-End. Atualmente, trabalho em projetos pessoais para aprimorar 
+                    minhas habilidades, utilizando ReactJS no desenvolvimento web e React Native no desenvolvimento mobile. Busco me aperfeiçoar continuamente 
+                    para me tornar um desenvolvedor Full-Stack. Entre meus principais projetos, destaco o Top10Game, um jogo de adivinhação de listas de Top 10. 
+                    Ele já conta com um site e um aplicativo disponível na Play Store, ambos acessíveis na seção de <a href="#projects"> projetos </a> do meu portfólio.
                 </p>
 
             </div>

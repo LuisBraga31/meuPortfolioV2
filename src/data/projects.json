@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "name" : "Top10Game",
+        "name" : "Top10Game Web",
         "description": "Meu principal projeto, um jogo simples de acertar um top10 de determinado tema, o jogo possui diversas categorias e temas interessantes. Foi utilizado React, JS, Sass e outros recursos para o desenvolvimento.",
         "image": "/projects/top10game.png",
         "urlSite": "https://top10game.app/"
@@ -15,6 +15,20 @@
     },
     {
         "id": 3,
+        "name": "ItaCatólico",
+        "description": "Esse projeto foi o desenvolvimento de um aplicativo informativo para comunidade católica de Itajubá. O desenvolvimento foi feito utilizando React Native com a ferramenta Expo.",
+        "image": "/projects/itacatolico.png",
+        "urlSite": "https://play.google.com/store/apps/details?id=com.bragadev.itacatolico"
+    },
+    {
+        "id": 4,
+        "name": "Nomeie",
+        "description": "Esse projeto foi o desenvolvimento de um jogo de nomear diversas listas com diferentes temas de 3 a 12 itens. O desenvolvimento foi feito utilizando React Native com a ferramenta Expo.",
+        "image": "/projects/nomeie.png",
+        "urlSite": "https://play.google.com/store/apps/details?id=com.bragadev.nomeie"
+    },
+    {
+        "id": 5,
         "name": "Digital Booking",
         "description": "Esse projeto foi o desenvolvimento de um site para o aluguel de hoteis, apartamentos, etc. Foi utilizado React JS, recursos do próprio react e algumas bibliotecas.",
         "image": "/projects/digitalbooking.png",
@@ -22,7 +36,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/grupo_2_digitalBooking_Front"
     },
     {
-        "id": 4,
+        "id": 6,
         "name": "Virtual R Website",
         "description": "Esse projeto foi o desenvolvimento de um website moderno, utilizando React JS e Tailwind CSS. O objetivo foi praticar o uso do Tailwind e criar um site moderno e responsivo.",
         "image": "/projects/virtualR.png",
@@ -30,7 +44,7 @@
         "urlGitHub": "https://github.com/LuisBraga31/ModernLandingPage"
     },
     {
-        "id": 5,
+        "id": 7,
         "name": "TravelProject",
         "description": "Esse projeto foi o desenvolvimento de um site de aventura/tour, utilizando React JS e o pré-processador SASS. O objetivo foi praticar o uso do Sass e criar um site completo e responsivo.",
         "image": "/projects/travelProject.png",
@@ -38,28 +52,12 @@
         "urlGitHub": "https://github.com/LuisBraga31/travelProject"
     },
     {
-        "id": 6,
+        "id": 8,
         "name": "Controle Financeiro",
         "description": "Esse projeto foi criado utilizando o React JS, com o objetivo de simular um pequeno sistema de controle financeiro. Além disso foi utilizado o LocalStorage como banco de dados provisório.",
         "image": "/projects/financialSystem.png",
         "urlSite": "https://financialsystem.vercel.app/",
         "urlGitHub": "https://github.com/LuisBraga31/financialSystem"
-    },
-    {
-        "id": 7,
-        "name": "App To Do",
-        "description": "Esse projeto foi o desenvolvimento de uma lista de tarefas, o famoso App To Do, utilizando React JS. Além disso foram criados filtros e um mecanismo de busca.",
-        "image": "/projects/reactAppToDo.png",
-        "urlSite": "https://react-app-to-do-tau.vercel.app/",
-        "urlGitHub": "https://github.com/LuisBraga31/reactAppToDo.github.io"
-    },
-    {
-        "id": 8,
-        "name": "Flags Country",
-        "description": "Esse projeto criado utilizando a API 'RestCountries', que exibe todos os países do mundo. Utilizando HTML, CSS e JS, foi criado um projeto para buscar esses países e ver algumas informações do mesmo.",
-        "image": "/projects/flagsCountry.png",
-        "urlSite": "https://luisbraga31.github.io/flagsCountry.github.io/",
-        "urlGitHub": "https://github.com/LuisBraga31/flagsCountry.github.io"
     }
 
 ]
